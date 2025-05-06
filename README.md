@@ -77,8 +77,17 @@ python setup.py
 
 ### Running the Application
 
+You can run the application in several ways:
+
 ```bash
+# Option 1: Using the Python launcher script
 python main.py
+
+# Option 2: Using the batch file (Windows)
+run_upscaler.bat
+
+# Option 3: Running the main module directly
+python imageUpscaler/main.py
 ```
 
 ### Using the GUI
@@ -125,6 +134,37 @@ The application is built with a modular architecture:
 - **UI Components**:
   - `ui/main_window.py`: Main application window
   - `ui/preview_widget.py`: Image preview widget with zoom capabilities
+
+### Project Structure
+
+```
+FreeAiImageUpscaler8k/
+├── assets/                  # Assets for the project (logos, etc.)
+├── imageUpscaler/           # Main application package
+│   ├── models/              # AI model implementations
+│   │   ├── __init__.py
+│   │   ├── model_manager.py # Model loading and management
+│   │   ├── swinir_model.py  # SwinIR model implementation
+│   │   └── upscaler.py      # Main upscaling logic
+│   ├── ui/                  # User interface components
+│   │   ├── __init__.py
+│   │   ├── main_window.py   # Main application window
+│   │   └── preview_widget.py # Image preview widget
+│   ├── utils/               # Utility functions and classes
+│   │   ├── __init__.py
+│   │   ├── config.py        # Configuration management
+│   │   ├── downloader.py    # Model downloader
+│   │   ├── error_handler.py # Error handling utilities
+│   │   ├── image_processor.py # Image processing utilities
+│   │   └── logger.py        # Logging utilities
+│   ├── main.py              # Application entry point
+│   ├── setup.py             # Setup script
+│   └── test_*.py            # Test files
+├── main.py                  # Root launcher script
+├── run_upscaler.bat         # Windows batch launcher
+├── LICENSE                  # MIT License
+└── README.md                # This file
+```
 
 ### Error Handling and Logging
 
