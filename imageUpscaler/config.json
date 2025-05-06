@@ -1,0 +1,36 @@
+{
+    "models_dir": "models",
+    "output_dir": "output",
+    "default_model": "realesrgan-x4plus",
+    "available_models": {
+        "realesrgan-x4plus": {
+            "name": "RealESRGAN x4plus",
+            "scale": 4,
+            "type": "photo",
+            "url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth"
+        },
+        "realesrgan-x4plus-anime": {
+            "name": "RealESRGAN x4plus Anime",
+            "scale": 4,
+            "type": "anime",
+            "url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth"
+        },
+        "realesrgan-x2plus": {
+            "name": "RealESRGAN x2plus",
+            "scale": 2,
+            "type": "photo",
+            "url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.1/RealESRGAN_x2plus.pth"
+        },
+        "swinir-large": {
+            "name": "SwinIR Large",
+            "scale": 4,
+            "type": "photo",
+            "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN.pth"
+        }
+    },
+    "tile_size": 512,
+    "tile_padding": 32,
+    "face_enhance": false,
+    "use_gpu": true,
+    "log_level": "INFO"
+}

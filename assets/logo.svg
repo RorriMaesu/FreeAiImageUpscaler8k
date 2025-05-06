@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="200" rx="20" fill="#3498db"/>
+  
+  <!-- Image Frame -->
+  <rect x="40" y="40" width="120" height="80" rx="5" fill="#FFFFFF" stroke="#2980b9" stroke-width="3"/>
+  
+  <!-- Upscaled Image Frame -->
+  <rect x="60" y="80" width="120" height="80" rx="5" fill="#FFFFFF" stroke="#2980b9" stroke-width="3"/>
+  
+  <!-- Arrow -->
+  <path d="M100,60 L120,60 L120,50 L140,70 L120,90 L120,80 L100,80 Z" fill="#27ae60"/>
+  
+  <!-- AI Symbol -->
+  <circle cx="40" cy="150" r="15" fill="#e74c3c"/>
+  <text x="40" y="155" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#FFFFFF">AI</text>
+  
+  <!-- Text -->
+  <text x="100" y="170" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#FFFFFF">AI Image Upscaler</text>
+  <text x="100" y="190" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#FFFFFF">Enhance to 8K Quality</text>
+</svg>
