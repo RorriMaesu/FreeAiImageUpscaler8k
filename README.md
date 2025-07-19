@@ -6,8 +6,8 @@
 <p align="center">
 <strong>Enhance your images to 8K quality with state-of-the-art AI models</strong>
 <br/><br/>
-<a href="https://buymeacoffee.com/rorrimaesu" target="_blank">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Buy%2520Me%2520A%2520Coffee-ffdd00%3Fstyle%3Dfor-the-badge%26logo%3Dbuy-me-a-coffee%26logoColor%3Dblack" alt="Buy Me A Coffee">
+<a href="https://www.buymeacoffee.com/rorrimaesu" target="_blank">
+<img src="./capitalismsucksbutiamsuperpassionateaboutbeingabletoaffordfood.png" alt="Buy Me A Coffee" width="200"/>
 </a>
 </p>
 
@@ -52,7 +52,7 @@ Dependencies: PyTorch, OpenCV, PyQt5, etc. (see requirements.txt)
 Option 1: Clone the Repository
 
 # Clone the repository
-git clone [https://github.com/RorriMaesu/FreeAiImageUpscaler8k.git](https://github.com/RorriMaesu/FreeAiImageUpscaler8k.git)
+git clone https://github.com/RorriMaesu/FreeAiImageUpscaler8k.git
 cd FreeAiImageUpscaler8k
 
 # Create a virtual environment (optional but recommended)
@@ -68,6 +68,7 @@ pip install -r requirements.txt
 
 # Run setup script
 python setup.py
+
 
 Option 2: Download the Release
 
@@ -88,6 +89,7 @@ run_upscaler.bat
 
 # Option 3: Running the main module directly
 python imageUpscaler/main.py
+
 
 Using the GUI
 
@@ -135,6 +137,7 @@ FreeAiImageUpscaler8k/
 ├── LICENSE
 └── README.md
 
+
 Error Handling and Logging
 Centralized Logging: All components use a centralized logging system.
 
@@ -163,16 +166,13 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 🙏 Support the Project
 If you find this tool useful, consider supporting its development. Your support helps maintain and improve this free tool for everyone!
 <br>
-<a href="https://buymeacoffee.com/rorrimaesu" target="_blank">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Buy%2520Me%2520A%2520Coffee-ffdd00%3Fstyle%3Dfor-the-badge%26logo%3Dbuy-me-a-coffee%26logoColor%3Dblack" alt="Buy Me A Coffee">
-
+<a href="https://www.buymeacoffee.com/rorrimaesu" target="_blank">
+<img src="./capitalismsucksbutiamsuperpassionateaboutbeingabletoaffordfood.png" alt="Buy Me A Coffee" width="200"/>
 </a>
 
 🔗 Acknowledgments
-
 Real-ESRGAN by Xintao Wang et al.
 
 SwinIR by Jingyun Liang et al.
 
 BasicSR framework for Super-Resolution
-
