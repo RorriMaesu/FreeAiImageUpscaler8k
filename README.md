@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./assets/logo.png" alt="8K AI Upscaler Logo" width="200"/>
+<img src="./8klogo_upscaled.png" alt="8K AI Upscaler Logo" width="200"/>
 </p>
 
 <h1 align="center">FreeAiImageUpscaler8k</h1>
@@ -16,7 +16,7 @@ Here is a look at the user-friendly interface and the powerful results you can a
 
 <p align="center">
 <em>Application GUI</em><br>
-<img src="./assets/gui_screenshot.png" alt="Application Screenshot" width="700"/>
+<img src="./8kupscaler1.png" alt="Application Screenshot" width="700"/>
 </p>
 
 <p align="center">
