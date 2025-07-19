@@ -165,11 +165,14 @@ If you find this tool useful, consider supporting its development. Your support 
 <br>
 <a href="https://buymeacoffee.com/rorrimaesu" target="_blank">
 <img src="https://www.google.com/search?q=https://img.shields.io/badge/Buy%2520Me%2520A%2520Coffee-ffdd00%3Fstyle%3Dfor-the-badge%26logo%3Dbuy-me-a-coffee%26logoColor%3Dblack" alt="Buy Me A Coffee">
+
 </a>
 
 🔗 Acknowledgments
+
 Real-ESRGAN by Xintao Wang et al.
 
 SwinIR by Jingyun Liang et al.
 
 BasicSR framework for Super-Resolution
+
