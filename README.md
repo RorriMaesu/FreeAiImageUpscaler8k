@@ -20,7 +20,7 @@ Here is a look at the user-friendly interface and the powerful results you can a
 </p>
 
 <p align="center">
-<em>Before & After Comparison</em><br>
+<em>(Placeholder for Before & After Comparison)</em><br>
 <img src="./assets/comparison_image.png" alt="Before and After Upscaling Comparison" width="700"/>
 </p>
 
